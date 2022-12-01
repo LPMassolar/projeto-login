@@ -12,14 +12,29 @@
     <main>
         <section id="login">
             <div id="imagem">
-                Foto
+                
             </div>
 
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem vinda(o) novamente. Faça login para acessar sua conta e poder fazer as alterações no seu ambiente.</p>
+
                 <form action="login.php" method="post" autocomplete="on">
-                    
+
+                    <p>
+                        <label for="iemail">E-mail:</label>
+                        <input type="email" name="email" id="iemail" required autocomplete="email">
+                    </p>
+
+                    <p>
+                        <label for="isen">Senha:</label>
+                        <input type="email" name="sen" id="isen" required autocomplete="email" autocomplete= "current">
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar">
+                    </p>
                 </form>
             </div>
         </section>
