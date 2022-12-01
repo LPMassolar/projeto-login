@@ -39,12 +39,15 @@ section#login {
     height: 500px;
     border-radius: 15px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.541);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     display: block;
     background: #fffd74 url(../imagens/copa-do-mundo.jpg) no-repeat;
-    background-position: center bottom;
+    background-position: center center;
     background-size: cover;   
     height: 200px;
 }
