@@ -40,6 +40,7 @@
 
     section#login {
         width: 890px;
+        height: 300px;
     }
 
     section#login > div#imagem {
@@ -56,15 +57,13 @@
 
     div#formulario > h1 {
         font-size: 1.9em;
-        margin-top: 130px;
+        padding-top: 10px;
     }
 
     div#formulario > p {
         font-size: 1em;
-        margin: 20px 0px;
+        margin: 17px 0px;
     }
 
-    form > input[type=submit] {
-        margin-top: 28px;
-    }
+    
 }
